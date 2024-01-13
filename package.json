@@ -10,6 +10,12 @@
     "packages/*"
   ],
   "scripts": {
-    "web": "yarn workspace nooty-app web"
+    "web": "yarn workspace nooty-app web",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^18.4.4",
+    "commitlint": "^18.4.4",
+    "husky": "^8.0.3"
   }
 }
