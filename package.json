@@ -10,7 +10,8 @@
     "packages/*"
   ],
   "scripts": {
-    "web": "yarn workspace nooty-app web"
+    "web": "yarn workspace nooty-app web",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.4.0",
@@ -21,5 +22,10 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.33.2",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^18.4.4",
+    "commitlint": "^18.4.4",
+    "husky": "^8.0.3"
   }
 }
